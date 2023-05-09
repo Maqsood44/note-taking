@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Playfair+Display+SC:wght@700&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Playfair+Display+SC:wght@700&family=Roboto+Condensed:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f3f3;
+}
+
+.brand{
+   color: #ccd5d5;
+   text-align: center;
+   text-shadow: 4px 15px 45px white;
+}
+
+.noteArea{
+    height: 80vh;
+    overflow-y: auto;
+}
+
+nav{
+    z-index: 999 !important;
+}
+
+#titleText{
+    border: 1px solid rgb(216, 213, 213);
+    outline: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#noteText{
+    border: 1px solid rgb(187, 185, 185);
+    outline: none;
+    width: 100%;
+    padding: 5px 10px;
+}
